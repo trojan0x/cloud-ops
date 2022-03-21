@@ -6,5 +6,5 @@ app = FastAPI()
 @app.get("/")
 async def home():
     return {"message": "Homepage endpoint hit"}
-
+    
     
